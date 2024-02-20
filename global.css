@@ -1,0 +1,62 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /*---------------- flex-------------------- */
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-start {
+    justify-content: flex-start;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .items-start {
+    align-items: flex-start;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .container {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+  }
+  
+  .g-45 {
+    gap: 4.5rem;
+  }
+  .g-30 {
+    gap: 3rem;
+  }
+  .g-24 {
+    gap: 2.4rem;
+  }
+  .g-16 {
+    gap: 1.6rem;
+  }
+  .g-37 {
+    gap: 3.7rem;
+  }
+  .g-8{
+    gap: 8px;
+  }
+  

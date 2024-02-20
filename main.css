@@ -1,0 +1,118 @@
+.game {
+  background-color: #aaa;
+  padding: 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  font-size: 2rem;
+}
+header p {
+  color: rgb(215, 215, 6);
+}
+header button , .degree button,footer button {
+  padding: 0 0.5rem;
+  font-size: 2rem;
+  background-color: rgb(47, 243, 47);
+  border-radius: 8px;
+  border-color: none;
+  color: aliceblue;
+  border-style: none;
+  -webkit-box-shadow: 1px 5px 0px 0px rgba(231, 237, 14, 0.45);
+  -moz-box-shadow: 1px 5px 0px 0px rgba(231, 237, 14, 0.45);
+  box-shadow: 1px 5px 0px 0px rgba(231, 237, 14, 0.45);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+header {
+  border-top: 2px solid yellow;
+  border-bottom: 1px solid #fff;
+}
+.btn1 {
+  padding: 0 8px;
+}
+
+.col img {
+  width: 30px !important;
+  height: 30px !important;
+  background: orange;
+  padding: 5px;
+}
+.colFA {
+  margin-top: 2rem;
+}
+.col p {
+  font-size: 3rem;
+  padding: 5px 2px;
+  font-style: italic;
+  color: blue;
+  background: orange;
+}
+.title {
+  text-align: center;
+  color: rgb(252, 240, 68);
+}
+.person {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding-left: 0.7rem !important;
+}
+.laptop {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  padding-right: 10px !important;
+}
+.time {
+  font-size: 3rem;
+  padding: 5px 10px;
+  font-style: italic;
+  color: blue;
+  background: orange;
+  border: 2px solid white;
+}
+.title span {
+  color: #fff;
+}
+#x,
+#y {
+  font-size: 30px;
+}
+.gred {
+  display: grid;
+  grid-template-columns:repeat(2, minmax(20px, 300px));
+  padding: 2rem;
+  gap: 5px;
+}
+.gred div{
+  background: orange;
+  height: 12rem;
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+  user-select: none;
+}
+.degree{
+  padding-bottom: 5px;
+  border-bottom: 2px solid white ;
+}
+footer button{
+  padding: 0 2.5rem !important;
+}
+footer{
+  padding-top: 2rem !important;
+}
+.cont{
+  padding-top: 1rem;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.5rem;
+  color: blue;
+}
+.btnJS{
+  box-shadow: none;
+  transform: translateY(10%);
+}
+
